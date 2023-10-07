@@ -17,11 +17,15 @@ To install the library on to your IDE, click on the "Download ZIP" and download 
 
 IBT motor1(6, 9); // IBT motor(int LPWM, int RPWM, int LEN, int REN)
 
+// Initializes pin 6 and 9 as LPWM and RPWM pins respectively
 // If your LEN and REN are shorted to 5V you do not have include those such as the above
 
 
 // If your LEN and REN are connected to digital pins, you may use the following:
 // IBT motor1(6, 9, 2, 4); // LPWM --> 6, RPMW --> 9, LEN --> 2, REN --> 4
+
+// Initializes pin 6, 9, 2 and 4 as LPWM, RPWM, LEN and REN pins respectively
+
 
 
 void setup(){
