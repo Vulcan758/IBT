@@ -34,11 +34,11 @@ void setup(){
 void loop(){
     motor1.setSpeedLevel(5); // choose a level from -10 to 10. Negative levels will cause the motor to rotate in the opposite direction
     delay(2000);
-    motor1.stop(); // stops the motor
+    motor1.stop_(); // stops the motor
     delay(500);
     motor1.setRawSpeed(-100); // choose a value from -255 to 255. Negative levels will cause the motor to rotate in the opposite direction
     delay(2000);
-    motor1.stop();
+    motor1.stop_();
 }
 ```
 
