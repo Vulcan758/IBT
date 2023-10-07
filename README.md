@@ -27,7 +27,6 @@ IBT motor1(6, 9); // IBT motor(int LPWM, int RPWM, int LEN, int REN)
 // Initializes pin 6, 9, 2 and 4 as LPWM, RPWM, LEN and REN pins respectively
 
 
-
 void setup(){
 
 }
@@ -36,9 +35,10 @@ void loop(){
     delay(2000);
     motor1.stop_(); // stops the motor
     delay(500);
-    motor1.setRawSpeed(-100); // choose a value from -255 to 255. Negative levels will cause the motor to rotate in the opposite direction
+    motor1.setRawSpeed(-200); // choose a value from -255 to 255. Negative levels will cause the motor to rotate in the opposite direction
     delay(2000);
     motor1.stop_();
+    delay(500);
 }
 ```
 
