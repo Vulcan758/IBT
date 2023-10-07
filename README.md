@@ -1,4 +1,4 @@
-# IBT2_BTSDriverLibrary
+# IBT2 BTS7960 Driver Library
 
 This is an easy to use motor driver library made for the BTS7960 motor driver (and other motor drivers with similar pinout). 
 
