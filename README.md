@@ -6,12 +6,11 @@ This driver library is built for beginners as well as for more complex code as i
 
 ## Installation
 
-To install the library on to your IDE, click on the "Download ZIP" and download the repository as a .zip folder. After doing so, refer to the "Manual Installation" section of the following [link here] (https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
+To install the library on to your IDE, click on the "Download ZIP" and download the repository as a .zip folder. After doing so, refer to the "Manual Installation" section of the following [link here](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
 
 ## Usage
 
 <code> 
-  
 #include <IBT.h>
 
 // LPWM --> 6, RPMW --> 9, LEN --> 5V, REN --> 5V
@@ -37,5 +36,4 @@ void loop(){
     delay(2000);
     motor1.stop();
 }
-
 </code>
