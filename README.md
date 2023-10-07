@@ -10,7 +10,7 @@ To install the library on to your IDE, click on the "Download ZIP" and download 
 
 ## Usage
 
-<code> 
+```
 #include <IBT.h>
 
 // LPWM --> 6, RPMW --> 9, LEN --> 5V, REN --> 5V
@@ -36,4 +36,4 @@ void loop(){
     delay(2000);
     motor1.stop();
 }
-</code>
+```
