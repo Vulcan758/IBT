@@ -3,6 +3,7 @@
   IBT.cpp - Library for ease use of IBT2 BTS7960 motor driver.
   Created by Al Mahir Ahmed, October 6th 2023.
   Released into the public domain.
+  Contact: mahirgored@gmail.com
 
 */
 
